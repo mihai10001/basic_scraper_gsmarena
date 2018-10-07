@@ -9,12 +9,12 @@
 - The first function reads all known brands from a list of brands.
 - For every brand, it returns a list of the latest 40 devices (by release date) from that brand (checks only first page of results).
 - For each devices, it only scrapes a slight portion of information:
- - Release date
- - Brand
- - Name
- - Processor
- - Rating
- - Price
+  - Release date
+  - Brand
+  - Name
+  - Processor
+  - Rating
+  - Price
 
 After scraping the information for one device, it stores it into the database, and sleeps for 0.1 seconds (in case I am sending too many requests to the server).
 In the implementation, I have used libraries such as urllib to open URLs, and the well known Python library BeautifulSoup for parsing the HTML.
