@@ -1,8 +1,8 @@
 # Unobstructive scraper for building a database
 
 ### Small scraper for building a mobile device database
-### It is used togheter with a web application personal project, for a phone guide website (specifically, for displaying entries in the device database).
-### I intend by no means to steal or distribute any data I gathered / will gather. It is intended for the web application project only, which is kept private (the site won't get published).
+It is used togheter with a web application personal project, for a phone guide website (specifically, for displaying entries in the device database).
+I intend by no means to steal or distribute any data I gathered / will gather. It is intended for the web application project only, which is kept private (the site won't get published).
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 There are 3 major steps in the implementation, each assigned to a function:
